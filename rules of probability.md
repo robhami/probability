@@ -55,3 +55,19 @@ Example A student goes to the library. The probability that she checks out (a) a
 Solution: Let F = the event that the student checks out fiction; and let N = the event that the student checks out non-fiction. Then, based on the rule of addition:
 
 P(F ∪ N) = P(F) + P(N) - P(F ∩ N) P(F ∪ N) = 0.40 + 0.30 - 0.20 = 0.50
+
+### Combinations and Permutations ###
+The solution to many statistical experiments involves being able to count the number of points in a sample space. Counting points can be hard, tedious, or both.
+
+Fortunately, there are ways to make the counting task easier. This lesson focuses on three rules of counting that can save both time and effort - combinations, permutations, and event multiples.
+
+### Combinations ###
+Sometimes, we want to count all of the possible ways that a single set of objects can be selected - without regard to the order in which they are selected.
+
+In general, n objects can be arranged in n(n - 1)(n - 2) ... (3)(2)(1) ways. This product is represented by the symbol n!, which is called n factorial. (By convention, 0! = 1.)
+A combination is a selection of all or part of a set of objects, without regard to the order in which they were selected. This means that XYZ is considered the same combination as ZYX.
+The number of combinations of n objects taken r at a time is denoted by nCr.
+
+#### Rule 1. The number of combinations of n objects taken r at a time is ####
+
+nCr = n(n - 1)(n - 2) ... (n - r + 1)/r! = n! / r!(n - r)!
