@@ -70,25 +70,55 @@ The number of combinations of n objects taken r at a time is denoted by nCr.
 
 #### Rule 1. The number of combinations of n objects taken r at a time is ####
 
-nCr = n(n - 1)(n - 2) ... (n - r + 1)/r! = n! / r!(n - r)!
+nCr = n(n - 1)(n - 2) ... (n - r + 1)/r! 
 
-Another way of writing it 
+(n-r+1) defines limit that factorial needs to run to e.g. 
 
-P(n,r) = n!/(n-r)!
+Number of different ways XYZ can be arranged into 2 digits, order not considered (i.e. XY and YX are considered the same)
+n= 3 r=2
+limit is 3-2+1= 2
+3 * (3-1) * (3-2) / 2*1 
 
-Example
+= 3
 
-A code have 4 digits in a specific order, the digits are between 0-9. How many different permutations are there if one digit may only be used once?
+Can also be done like this but numbers get big or longer to calculate:
 
-A four digit code could be anything between 0000 to 9999, hence there are 10,000 combinations if every digit could be used more than one time but since we are told in the question that one digit only may be used once it limits our number of combinations. In order to determine the correct number of permutations we simply plug in our values into our formula:
+= n! / r!(n - r)!
 
-P(n,r)=
+e.g. with poker 5 cards in hand and 52 cards. How many distinct hands can be dealt: 
 
-10!(10−4)!=
+Limit is 52-5+1= 48 (i.e. 52-4)
 
-10⋅9⋅8⋅7⋅6⋅5⋅4⋅3⋅2⋅1/6⋅5⋅4⋅3⋅2⋅1=
+52*(52-1)*(52-2)* (52-3) * (52-4) / 5 * 4 * 3 * 2 * 1 
 
-5040
+or 
+
+52!/5!(47!)
+
+= 2, 598, 960
+
+
+### Permutations ###
+
+nPr = n(n - 1)(n - 2) ... (n - r + 1) = n! / (n - r)!
+
+Number of different way xyz can be arranged: 
+n=3
+r=3
+
+limit 3-3+1 =1
+
+3*(3-1) =6 
+
+or the other way
+
+
+
+
+
+
+
+
 
 
 
