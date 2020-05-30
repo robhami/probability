@@ -125,7 +125,7 @@ Therefore, based on the rule of multiplication:
 P(A ∩ B) = P(A) P(B|A)
 P(A ∩ B) = (4/10) * (3/9) = 12/90 = 2/15 = 0.133
 
-Rule of Addition
+### Rule of Addition ###
 The rule of addition applies to the following situation. We have two events, and we want to know the probability that either event occurs.
 
 Rule of Addition The probability that Event A or Event B occurs is equal to the probability that Event A occurs plus the probability that Event B occurs minus the probability that both Events A and B occur.
